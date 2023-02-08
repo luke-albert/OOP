@@ -3,11 +3,13 @@ import random
 # The Coin class simulates a coin that can
 # be flipped.
 
+
 class Coin:
     # The _ _init_ _ method initializes the
     # sideup data attribute with 'Heads'.
 
     def __init__(self):
+        # mutator method which can change the value of an attribue, it is also called a set method
         self.sideup = 'Heads'
 
     # The toss method generates a random number
@@ -24,5 +26,11 @@ class Coin:
     # The get_sideup method returns the value
     # referenced by sideup.
 
+    # by itself because it gives you the true value so that you arent flipping it again
+
     def get_sideup(self):
-            return self.sideup
+        # get method (accessor) just returns the value of an attribute
+        return self.sideup
+
+
+# running this will do nothing
