@@ -2,18 +2,17 @@ import random
 
 
 class Insect:
-
-    def __init__(self):
-        self.wings = 2
-        self.legs = 4
+    def __init__(self, n, w, l):
+        self.name = n
+        self.wings = w
+        self.legs = l
         self.flight_len = 0
 
-    def wings(self):
-        if random.radint(2, 6, 2) == 2:
-            self.wings = 2
-        else:
-            self.legs = 4
+    def flight_length(self):
+        self.flight = random.randint(1, 10)
 
-    def get_info():
-        return self.wings
-        reutrn self.legs
+    def get_miles():
+        return self.flight
+
+    def get_name(self):
+        return self.name

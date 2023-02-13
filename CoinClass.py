@@ -10,7 +10,7 @@ class Coin:
 
     def __init__(self):
         # mutator method which can change the value of an attribue, it is also called a set method
-        self.sideup = 'Heads'
+        self.__sideup = "Heads"
 
     # The toss method generates a random number
     # in the range of 0 through 1. If the number
@@ -19,9 +19,9 @@ class Coin:
 
     def toss(self):
         if random.randint(0, 1) == 0:
-            self.sideup = 'Heads'
+            self.__sideup = "Heads"
         else:
-            self.sideup = 'Tails'
+            self.__sideup = "Tails"
 
     # The get_sideup method returns the value
     # referenced by sideup.
@@ -30,7 +30,7 @@ class Coin:
 
     def get_sideup(self):
         # get method (accessor) just returns the value of an attribute
-        return self.sideup
+        return self.__sideup
 
 
 # running this will do nothing
