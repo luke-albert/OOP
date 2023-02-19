@@ -55,10 +55,9 @@ class Student:
 
     def calc_age(self):
         today = date.today()
-        today_year = today.year
         dob = self.__dob.split("/")
         dob_year = int(dob[2])
-        self.___age = today_year - dob_year
+        self.___age = today.year - dob_year
 
     def calc_register(self):
         if self.__classification == "senior":

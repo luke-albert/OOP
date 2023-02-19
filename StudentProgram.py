@@ -10,7 +10,7 @@ person = S.Student('person', student_id, student_name, student_dob, student_clas
 """
 studentid = 1001
 name = "John"
-dob = "1-/11/2001"
+dob = "10/11/2001"
 classification = "junior"
 
 
