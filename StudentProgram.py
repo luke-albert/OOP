@@ -1,13 +1,6 @@
 import StudentClass as sc
 
-"""
-student_id = input("Student_ID: ")
-student_name = input("Student Name: ")
-student_dob = input("Student DOB: ")
-student_classification = input("Classification (F,S,Jr,Sr): ")
 
-person = S.Student('person', student_id, student_name, student_dob, student_classification)
-"""
 studentid = 1001
 name = "John"
 dob = "10/11/2001"
